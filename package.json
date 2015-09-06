@@ -1,7 +1,7 @@
 {
   "name": "array-to-hash",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Copy array values as hash keys",
   "license": "MIT",
   "repository": "bendrucker/array-to-hash",
