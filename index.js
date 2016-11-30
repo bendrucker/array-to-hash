@@ -5,11 +5,9 @@ var assertArray = require('assert-array')
 
 module.exports = function arrayToHash (array) {
   assertArray(array)
-  var hash = Object.create(null)
-  for (var i = 0; i < array.length; i++) {
-    var value = array[i]
+  return array.reduce(function (hash, value) {
     assert(typeof value === 'string')
     hash[value] = undefined
-  }
-  return hash
+    return hash
+  }, Object.create(null))
 }
