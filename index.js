@@ -5,7 +5,7 @@ var assertArray = require('assert-array')
 
 module.exports = function arrayToHash (array) {
   assertArray(array)
-  return array.reduce((hash, value) => {
+  return array.reduce(function (hash, value) {
     assert(typeof value === 'string')
     hash[value] = undefined
     return hash
