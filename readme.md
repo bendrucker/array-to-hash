@@ -1,4 +1,4 @@
-# array-to-hash [![Build Status](https://travis-ci.org/bendrucker/array-to-hash.svg?branch=master)](https://travis-ci.org/bendrucker/array-to-hash)
+# array-to-hash [![Build Status](https://travis-ci.org/bendrucker/array-to-hash.svg?branch=master)](https://travis-ci.org/bendrucker/array-to-hash) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/array-to-hash.svg)](https://greenkeeper.io/)
 
 > Copy array values as hash keys
 
